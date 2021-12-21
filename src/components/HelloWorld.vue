@@ -12,6 +12,7 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
               <a class="nav-link" href="#trailer">Trailer</a>
               <a class="nav-link" href="#movie-list">Movie List</a>
+              <p class="text-pink-400">Daniel</p>
             </div>
           </div>
         </div>
