@@ -31,8 +31,8 @@
       <div class="img-container">
         <img src="carousel-1.webp">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Spider-Man: Homecoming</h2>
-          <p>Meski masih duduk di bangku SMA, Peter Parker harus menyelesaikan misi untuk menghentikan perdagangan senjata ilegal.</p>
+          <h2>Promo Akhir Tahun</h2>
+          <p>Langganan Moviees Premier Platinum hanya dengan 2.022 rupiah aja, Pas banget kan buat movie marathon semua #CariDiMoviees</p>
         </div>
       </div>
     </div>
@@ -40,8 +40,8 @@
       <div class="img-container">
         <img src="carousel-2.webp">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Spider-Man: Homecoming</h2>
-          <p>Meski masih duduk di bangku SMA, Peter Parker harus menyelesaikan misi untuk menghentikan perdagangan senjata ilegal.</p>
+          <h2>Thailand vs Vietnam</h2>
+          <p>26 DES - 19.30 WIB | Mampukah Vietnam mengejar kebobolan 2 gol di leg 1 atau Thailand yang akan melangkah mulus ke final?</p>
         </div>
       </div>
     </div>
