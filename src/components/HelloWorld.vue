@@ -1,20 +1,24 @@
 <template>
 <div>
     <link href="/dist/output.css" rel="stylesheet">
-    <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top pt-1" style="background-color: rgb(10, 154, 250);">
-        <div class="container text-xl">
-          <a class="navbar-brand" href="#home">Moviees</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link" href="#trailer">Trailer</a>
-              <a class="nav-link" href="#movie-list">Movie List</a>
-            </div>
-          </div>
+    <nav class="bg-transparent">
+      <div class="max-w-5xl mx-auto px-2">
+				<div class="flex justify-between">
+						<div>
+							<!-- Website Logo -->
+							<a href="" class="flex items-center py-4 px-2">
+								<img src="logo-moviees.png" width="50" alt="Logo" class="h-8 w-8 mr-2">
+								<span class="font-semibold text-gray-500 text-lg">Moviees</span>
+							</a>
+						</div>
+						<!-- Item Navbar -->
+						<div class="hidden md:flex items-center space-x-1">
+							<a href="home" class="py-4 px-2 text-green-500  border-green-500 font-semibold ">Home</a>
+							<a href="trailer" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Trailer</a>
+							<a href="movies" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Movies</a>
+						</div>
         </div>
+      </div>
     </nav>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -22,7 +26,7 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner ml-50 mt-10">
     <div class="carousel-item active">
       <div class="img-container">
         <img src="2.jpg">
