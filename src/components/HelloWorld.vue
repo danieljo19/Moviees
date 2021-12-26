@@ -29,17 +29,17 @@
   <div class="carousel-inner ml-50 mt-10">
     <div class="carousel-item active">
       <div class="img-container">
-        <img src="2.jpg">
+        <img src="carousel-1.webp">
       </div>
     </div>
     <div class="carousel-item">
       <div class="img-container">
-        <img src="one.jpg" >
+        <img src="carousel-2.webp" >
       </div>
     </div>
     <div class="carousel-item">
        <div class="img-container">
-        <img src="2.jpg" >
+        <img src="carousel-3.webp" >
       </div>
     </div>
   </div>
