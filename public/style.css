@@ -15,4 +15,5 @@ body, html {
     position: center;
     overflow: hidden;
     border-radius: 50%;
+    padding-top: 500px;
 }
