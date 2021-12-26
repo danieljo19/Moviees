@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.carousel-caption{
+    top: 0;
+    text-align: left;
+    padding: 100px 560px 100px 0px;
+    bottom: auto;
+}
+
+.carousel-caption h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+

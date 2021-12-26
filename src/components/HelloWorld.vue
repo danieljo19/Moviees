@@ -26,20 +26,32 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner ml-50 mt-10">
+ <div class="carousel-inner ml-50 mt-10">
     <div class="carousel-item active">
       <div class="img-container">
         <img src="carousel-1.webp">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Spider-Man: Homecoming</h2>
+          <p>Meski masih duduk di bangku SMA, Peter Parker harus menyelesaikan misi untuk menghentikan perdagangan senjata ilegal.</p>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
       <div class="img-container">
-        <img src="carousel-2.webp" >
+        <img src="carousel-2.webp">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Spider-Man: Homecoming</h2>
+          <p>Meski masih duduk di bangku SMA, Peter Parker harus menyelesaikan misi untuk menghentikan perdagangan senjata ilegal.</p>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
        <div class="img-container">
-        <img src="carousel-3.webp" >
+        <img src="carousel-3.webp">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Spider-Man: Homecoming</h2>
+          <p>Meski masih duduk di bangku SMA, Peter Parker harus menyelesaikan misi untuk menghentikan perdagangan senjata ilegal.</p>
+        </div>
       </div>
     </div>
   </div>
