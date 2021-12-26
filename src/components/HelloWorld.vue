@@ -1,21 +1,21 @@
 <template>
 <div>
     <link href="/dist/output.css" rel="stylesheet">
-    <nav class="bg-transparent">
-      <div class="max-w-5xl mx-auto px-2">
-				<div class="flex justify-between">
+    <nav class="m-bg-transparent">
+      <div class="m-max-w-5xl m-mx-auto m-px-2">
+				<div class="m-flex m-justify-between">
 						<div>
 							<!-- Website Logo -->
-							<a href="" class="flex items-center py-4 px-2">
-								<img src="logo-moviees.png" width="50" alt="Logo" class="h-8 w-8 mr-2">
-								<span class="font-semibold text-gray-500 text-lg">Moviees</span>
+							<a href="" class="m-flex m-items-center m-py-4 m-px-2">
+								<img src="logo-moviees.png" width="50" alt="Logo" class="m-h-8 m-w-8 m-mr-2">
+								<span class="m-font-semibold m-text-gray-500 m-text-lg">Moviees</span>
 							</a>
 						</div>
 						<!-- Item Navbar -->
-						<div class="hidden md:flex items-center space-x-1">
-							<a href="home" class="py-4 px-2 text-green-500  border-green-500 font-semibold ">Home</a>
-							<a href="trailer" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Trailer</a>
-							<a href="movies" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Movies</a>
+						<div class="hidden md:m-flex m-items-center m-space-x-1">
+							<a href="home" class="m-py-4 m-px-2 m-text-green-500  m-border-green-500 m-font-semibold ">Home</a>
+							<a href="trailer" class="m-py-4 m-px-2 m-text-gray-500 m-font-semibold hover:m-text-green-500 m-transition m-duration-300">Trailer</a>
+							<a href="movies" class="m-py-4 m-px-2 m-text-gray-500 m-font-semibold hover:m-text-green-500 m-transition m-duration-300">Movies</a>
 						</div>
         </div>
       </div>
