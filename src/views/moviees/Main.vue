@@ -19,10 +19,10 @@
         <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
             <div class="m-text-gray-400 m-text-center m-p-4">
                 © 2021 Copyright:
-                <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Tailwind Elements</a>
+                <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
             </div>
         </footer>
-        
+
     </div>
 </template>
 
