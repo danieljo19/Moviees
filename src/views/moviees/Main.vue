@@ -3,7 +3,7 @@
         <layout-main>
             
         </layout-main>
-        <div class="h1 m-mt-10 m-ml-5">ALL MOVIES</div>
+        <div class="h1 m-mt-5 m-ml-5 m-font-bold">All Movies</div>
         <input class="m-bg-gray-200 m-h-10 m-px-5 m-ml-5 m-rounded-lg m-text-sm focus:m-outline-none" style="width:20%" v-model="search" type="search" name="search" placeholder="Cari di Moviees">
         <br>
         
@@ -15,6 +15,14 @@
                 <router-link :to="{name:'detailMovies', params: {rank: movie.rank}}" class="btn btn-warning m-mt-2">Details</router-link>
             </div> 
         </div>
+
+        <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
+            <div class="m-text-gray-400 m-text-center m-p-4">
+                © 2021 Copyright:
+                <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Tailwind Elements</a>
+            </div>
+        </footer>
+        
     </div>
 </template>
 
