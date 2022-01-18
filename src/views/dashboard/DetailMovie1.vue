@@ -18,7 +18,7 @@
                                 Imdb Rating Count: {{movie.imDbRatingCount}} <br> <br>
                             </div>
                             <div class="col-1">
-                                <router-link :to="{name:'dashboard'}" class="btn-close" style="top: 60px; position: fixed; right: 90px" aria-label="Close" ></router-link>
+                                <router-link :to="{name:'dashboard'}" class="btn-close" style="top: 60px; position: fixed;" aria-label="Close" ></router-link>
                             </div>
                         </div>
                     </div>
