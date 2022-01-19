@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="col-8 m-pl-20">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
 =======
                 <div class="col-8 m-pl-10">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
@@ -23,6 +24,9 @@
 =======
                 <div class="col-8 m-pl-10">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+                <div class="col-8 m-pl-20">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
+>>>>>>> parent of b086488 (Merge branch 'main' of https://github.com/danieljo19/Moviees)
                 <div class="col-0.5"></div>
                 <div class="h3 m-mt-20">Our Team</div>
                 <hr>
@@ -34,6 +38,7 @@
             <li>San Gabriel Vanness K.E.</li>
             <li>Sinshevan Viswanatan K.E.</li>
         </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -51,6 +56,8 @@
 >>>>>>> parent of e1e9347 (minor update)
 =======
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+>>>>>>> parent of b086488 (Merge branch 'main' of https://github.com/danieljo19/Moviees)
     </div>
 </template>
 

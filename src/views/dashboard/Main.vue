@@ -39,6 +39,7 @@
           </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,6 +95,9 @@
 >>>>>>> parent of 0b5c162 (update fix footer)
 =======
         </div>
+=======
+        </div>
+>>>>>>> parent of b086488 (Merge branch 'main' of https://github.com/danieljo19/Moviees)
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -115,9 +119,12 @@
             
         </div>
         </div>
+<<<<<<< HEAD
 >>>>>>> parent of e1e9347 (minor update)
 =======
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+>>>>>>> parent of b086488 (Merge branch 'main' of https://github.com/danieljo19/Moviees)
   </div>
 </template>
 

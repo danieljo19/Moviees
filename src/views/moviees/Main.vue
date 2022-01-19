@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 0b5c162 (update fix footer)
@@ -35,6 +36,8 @@
 >>>>>>> parent of e1e9347 (minor update)
 =======
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+>>>>>>> parent of b086488 (Merge branch 'main' of https://github.com/danieljo19/Moviees)
     </div>
 </template>
 
