@@ -47,7 +47,7 @@
           </button>
     </div>
     <div class="h2 m-mt-10 m-ml-5 m-font-bold">Top 5 Movies</div>
-    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-5 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
+    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-2 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
       <div v-if="movie.rank==='1'|| movie.rank==='2' || movie.rank==='3'|| movie.rank==='4'|| movie.rank==='5'">
         <img :src="movie.image" style="width: 100%; height: 300px; margin: auto;">
         <div class="card-body">
@@ -57,14 +57,14 @@
         </div>
       </div>
     </div>
-
-    <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
-      <div class="m-text-gray-400 m-text-center m-p-4">
-        © 2021 Copyright:
-        <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
-      </div>
-    </footer>
-
+    <div class="m-bottom-0 m-fixed m-w-full">
+        <footer class="m-bg-black m-text-center lg:m-text-left">
+            <div class="m-text-gray-400 m-text-center m-p-4">
+                © 2022 Copyright:
+                <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
+            </div>
+        </footer>
+    </div>
   </div>
 </template>
 
@@ -83,7 +83,7 @@ export default {
     {
         getMovies()
         {
-            fetch("https://imdb-api.com/en/API/Top250Movies/k_7tm6nttr")
+            fetch("https://imdb-api.com/en/API/Top250Movies/k_kzb59xch")
                 .then(response => response.json())
                 .then(json => {
                     this.dataMovies=json.items;

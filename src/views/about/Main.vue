@@ -2,7 +2,7 @@
     <div>
         <layout-main> </layout-main>
        
-        <div class="container">
+        <div class="container m-mb-20">
             <div class="row section-separator align-items-center m-mt-10">
                 <div class="col-0.5"></div>
                 <div class="h3 m-font-bold">About Moviees</div>
@@ -10,7 +10,7 @@
                 <div class="col-3 m-mt-10">
                     <img src="logo-moviees2.png" alt="">
                 </div>
-                <div class="col-8 m-pl-10">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
+                <div class="col-8 m-pl-10 m-mt-8">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
                 <div class="col-0.5"></div>
                 <div class="h3 m-mt-20 m-font-bold">Our Team</div>
                 <hr>
@@ -23,13 +23,14 @@
             <li>Sinshevan Viswanatan K.E.</li>
         </div>
 
-        <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
+        <div class="m-bottom-0 m-fixed m-w-full">
+        <footer class="m-bg-black m-text-center lg:m-text-left">
             <div class="m-text-gray-400 m-text-center m-p-4">
-                © 2021 Copyright:
+                © 2022 Copyright:
                 <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
             </div>
         </footer>
-
+        </div>
     </div>
 </template>
 
