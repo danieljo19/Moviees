@@ -37,6 +37,7 @@
               </div>
             </div>
           </div>
+<<<<<<< HEAD
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -59,6 +60,36 @@
             
         </div>
         </div>
+=======
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+    <div class="h2 m-mt-10 m-ml-5 m-font-bold">Top 5 Movies</div>
+    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-5 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
+      <div v-if="movie.rank==='1'|| movie.rank==='2' || movie.rank==='3'|| movie.rank==='4'|| movie.rank==='5'">
+        <img :src="movie.image" style="width: 100%; height: 300px; margin: auto;">
+        <div class="card-body">
+            <img src="star.svg" width="20" style="float: left; margin-right: 10px;">{{movie.imDbRating}}
+            <p style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{movie.title}}</p>
+            <router-link :to="{name:'detailMovie1', params: {rank: movie.rank}}" class="btn btn-warning m-mt-2">Details</router-link>
+        </div>
+      </div>
+    </div>
+
+    <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
+      <div class="m-text-gray-400 m-text-center m-p-4">
+        © 2021 Copyright:
+        <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
+      </div>
+    </footer>
+
+>>>>>>> parent of 0b5c162 (update fix footer)
   </div>
 </template>
 

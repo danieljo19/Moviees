@@ -15,6 +15,17 @@
                 <router-link :to="{name:'detailMovies', params: {rank: movie.rank}}" class="btn btn-warning m-mt-2">Details</router-link>
             </div> 
         </div>
+<<<<<<< HEAD
+=======
+
+        <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
+            <div class="m-text-gray-400 m-text-center m-p-4">
+                © 2021 Copyright:
+                <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
+            </div>
+        </footer>
+
+>>>>>>> parent of 0b5c162 (update fix footer)
     </div>
 </template>
 
