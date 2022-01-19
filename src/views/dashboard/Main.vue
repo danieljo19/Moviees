@@ -90,6 +90,7 @@
       </div>
     </footer>
 
+<<<<<<< HEAD
 >>>>>>> parent of 0b5c162 (update fix footer)
 =======
         </div>
@@ -115,6 +116,8 @@
         </div>
         </div>
 >>>>>>> parent of e1e9347 (minor update)
+=======
+>>>>>>> parent of 0b5c162 (update fix footer)
   </div>
 </template>
 
