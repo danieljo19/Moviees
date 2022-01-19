@@ -15,7 +15,7 @@
                         <a href="movies" class="m-py-4 m-px-2 m-font-semibold hover:m-text-yellow-500 m-transition m-duration-300">Movies</a>
                         <a href="about" class="m-py-4 m-px-2 m-font-semibold hover:m-text-yellow-500 m-transition m-duration-300">About</a>
                         <div class="m-relative m-mx-auto m-text-gray-600">
-                
+                    
                         </div>
                     </div>
                 </div>
