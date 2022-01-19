@@ -10,6 +10,7 @@
       </div>
         <div class="carousel-inner ml-50 mt-10">
             <div class="carousel-item active">
+              <a href="movies/20">
               <div class="img-container">
                 <img src="carousel-1.webp">
                 <div class="carousel-caption d-none d-md-block">
@@ -17,8 +18,10 @@
                   <p>Peter Parker yang menghadapi krisis besar karena identitasnya diungkap Mysterio. Peter Parker kemudian meminta bantuan Doctor Stranger agar orang-orang bisa melupakan identitasnya sebagai Spider-Man.</p>
                 </div>
               </div>
+              </a>
             </div>
             <div class="carousel-item">
+              <a href="movies/28">
               <div class="img-container">
                 <img src="carousel-2.webp">
                 <div class="carousel-caption d-none d-md-block">
@@ -26,8 +29,10 @@
                   <p>Dengan umat manusia yang sedang berada di ambang kepunahan, sekelompok astronot melakukan perjalanan melalui lubang cacing untuk mencari planet lain yang bisa dihuni.</p>
                 </div>
               </div>
+              </a>
             </div>
             <div class="carousel-item">
+              <a href="movies/71">
               <div class="img-container">
                 <img src="carousel-3.webp">
                 <div class="carousel-caption d-none d-md-block">
@@ -35,6 +40,7 @@
                   <p>Dua remaja berbagi hubungan aneh setelah mengetahui bahwa mereka bertukar tubuh satu sama lain. Segalanya menjadi lebih rumit ketika anak laki-laki dan perempuan itu memutuskan untuk bertemu secara langsung.</p>
                 </div>
               </div>
+              </a>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -83,7 +89,7 @@ export default {
     {
         getMovies()
         {
-            fetch("https://imdb-api.com/en/API/Top250Movies/k_kzb59xch")
+            fetch("https://imdb-api.com/en/API/Top250Movies/k_55z6o7if")
                 .then(response => response.json())
                 .then(json => {
                     this.dataMovies=json.items;

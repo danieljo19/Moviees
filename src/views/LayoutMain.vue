@@ -5,7 +5,7 @@
                 <div class="m-flex m-justify-between">
                     <div>
                         <!-- Website Logo -->
-                        <a href="" class="m-flex m-items-center m-py-4 m-px-2">
+                        <a href="/" class="m-flex m-items-center m-py-4 m-px-2">
                         <img src="logo-moviees2.png" height="50" alt="Logo" class="m-h-8 m-mr-2">
                         </a>
                     </div>

@@ -18,7 +18,7 @@
                                 Imdb Rating Count: {{movie.imDbRatingCount}} <br> <br>
                             </div>
                             <div class="col-1">
-                                <router-link :to="{name:'dashboard'}" class="btn-close" style="top: 60px; position: fixed;" aria-label="Close" ></router-link>
+                                <router-link :to="{name:'dashboard'}" class="btn-close" style="top: 15%; position: fixed;" aria-label="Close" ></router-link>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
         {
             getDetailMovie()
             {
-                fetch("https://imdb-api.com/en/API/Top250Movies/k_7tm6nttr")
+                fetch("https://imdb-api.com/en/API/Top250Movies/k_55z6o7if")
                     .then(response => response.json())
                     .then(json => {
                         this.dataMovies=json.items;
