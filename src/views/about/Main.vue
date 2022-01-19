@@ -11,10 +11,14 @@
                     <img src="logo-moviees2.png" alt="">
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="col-8 m-pl-20">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
 =======
                 <div class="col-8 m-pl-10">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+                <div class="col-8 m-pl-20">Moviees adalah website yang menyediakan berbagai macam rekomendasi film/movies. Moviees dibuat pada tahun 2022 dan saat ini telah dipakai oleh 10.000 pengguna. Selain itu, Moviees selalu mengupdate rekomendasi film setiap harinya.</div>
+>>>>>>> parent of e1e9347 (minor update)
                 <div class="col-0.5"></div>
                 <div class="h3 m-mt-20">Our Team</div>
                 <hr>
@@ -27,6 +31,7 @@
             <li>Sinshevan Viswanatan K.E.</li>
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
@@ -37,6 +42,8 @@
         </footer>
 
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+>>>>>>> parent of e1e9347 (minor update)
     </div>
 </template>
 

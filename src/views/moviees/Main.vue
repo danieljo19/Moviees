@@ -16,6 +16,7 @@
             </div> 
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         <footer class="m-mt-20 m-bg-black m-text-center lg:m-text-left">
@@ -26,6 +27,8 @@
         </footer>
 
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+>>>>>>> parent of e1e9347 (minor update)
     </div>
 </template>
 

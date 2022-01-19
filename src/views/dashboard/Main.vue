@@ -38,6 +38,7 @@
             </div>
           </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -90,6 +91,30 @@
     </footer>
 
 >>>>>>> parent of 0b5c162 (update fix footer)
+=======
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+  </div>
+  <div class="h1 m-mt-10 m-ml-5">TOP 5 MOVIES</div>
+  <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-5 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
+    <div v-if="movie.rank==='1'|| movie.rank==='2' || movie.rank==='3'|| movie.rank==='4'|| movie.rank==='5'">
+            <img :src="movie.image" style="width: 100%; height: 300px; margin: auto;">
+            <div class="card-body">
+                <img src="star.svg" width="20" style="float: left; margin-right: 10px;">{{movie.imDbRating}}
+                <p style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{movie.title}}</p>
+                <router-link :to="{name:'detailMovie1', params: {rank: movie.rank}}" class="btn btn-warning m-mt-2">Details</router-link>
+            </div> 
+            
+        </div>
+        </div>
+>>>>>>> parent of e1e9347 (minor update)
   </div>
 </template>
 
