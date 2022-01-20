@@ -52,8 +52,8 @@
             <span class="visually-hidden">Next</span>
           </button>
     </div>
-    <div class="h2 m-mt-10 m-ml-5 m-font-bold">Top 5 Movies</div>
-    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-2 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
+    <div class="h2 m-mt-10 m-ml-5 m-font-bold m-mb-4">Top 5 Movies</div>
+    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-2 m-bg-gray-100 m-mt-0 m-mb-0.5" style="width: 18%; height: 20; float: left;" >
       <div v-if="movie.rank==='1'|| movie.rank==='2' || movie.rank==='3'|| movie.rank==='4'|| movie.rank==='5'">
         <img :src="movie.image" style="width: 100%; height: 300px; margin: auto;">
         <div class="card-body">
