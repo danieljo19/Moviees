@@ -24,6 +24,14 @@
                 </main>
             </div>
         </nav>
+        <div class="m-bottom-0 m-fixed m-w-full">
+        <footer class="m-bg-black m-text-center lg:m-text-left">
+            <div class="m-text-gray-400 m-text-center m-p-4">
+                © 2022 Copyright:
+                <a class="m-text-gray-400 hover:m-text-yellow-500 m-transition m-duration-300" href="about">Moviees</a>
+            </div>
+        </footer>
+        </div>
     </div>
 </template>
 <script>
