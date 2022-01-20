@@ -46,7 +46,7 @@ data(){
     {
         getMovies()
         {
-            fetch("https://imdb-api.com/en/API/Top250Movies/k_7tm6nttr")
+            fetch("https://imdb-api.com/en/API/Top250Movies/k_mvvv05bd")
                 .then(response => response.json())
                 .then(json => {
                     this.dataMovies=json.items;

@@ -14,7 +14,7 @@
               <div class="img-container">
                 <img src="carousel-1.webp">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Spider-Man: Homecoming</h2>
+                  <h2>Spider-Man: <br>No Way Home</h2>
                   <p>Peter Parker yang menghadapi krisis besar karena identitasnya diungkap Mysterio. Peter Parker kemudian meminta bantuan Doctor Stranger agar orang-orang bisa melupakan identitasnya sebagai Spider-Man.</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@
           </button>
     </div>
     <div class="h2 m-mt-10 m-ml-5 m-font-bold">Top 5 Movies</div>
-    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-mt-0.5 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
+    <div v-for="movie in dataMovies" :key="movie" class="card; m-mx-2.5 m-my-2 m-bg-gray-100" style="width: 18%; height: 20; float: left;" >
       <div v-if="movie.rank==='1'|| movie.rank==='2' || movie.rank==='3'|| movie.rank==='4'|| movie.rank==='5'">
         <img :src="movie.image" style="width: 100%; height: 300px; margin: auto;">
         <div class="card-body">
@@ -63,6 +63,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
@@ -81,7 +82,7 @@ export default {
     {
         getMovies()
         {
-            fetch("https://imdb-api.com/en/API/Top250Movies/k_55z6o7if")
+            fetch("https://imdb-api.com/en/API/Top250Movies/k_mvvv05bd")
                 .then(response => response.json())
                 .then(json => {
                     this.dataMovies=json.items;

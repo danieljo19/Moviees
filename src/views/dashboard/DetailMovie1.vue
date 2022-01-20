@@ -16,6 +16,7 @@
                                 Crew: {{movie.crew}} <br> <br>
                                 Imdb Rating: {{movie.imDbRating}} <br> <br>
                                 Imdb Rating Count: {{movie.imDbRatingCount}} <br> <br>
+                                <router-link :to="{name:'trailer', params: {id: movie.id}}" class="btn btn-warning m-mt-2"> <img src="../../../public/play.png" style="float:left; width:25px; padding:2px; margin-right:5px"> Watch Trailer</router-link>
                             </div>
                             <div class="col-1">
                                 <router-link :to="{name:'dashboard'}" class="btn-close" style="top: 15%; position: fixed;" aria-label="Close" ></router-link>
@@ -41,7 +42,7 @@
         {
             getDetailMovie()
             {
-                fetch("https://imdb-api.com/en/API/Top250Movies/k_55z6o7if")
+                fetch("https://imdb-api.com/en/API/Top250Movies/k_mvvv05bd")
                     .then(response => response.json())
                     .then(json => {
                         this.dataMovies=json.items;
